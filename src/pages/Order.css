@@ -1,0 +1,549 @@
+.Container{
+    height: 80vh;
+    width: 70vw;
+    margin: 0px auto ;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+#maincontainerfluidflex{
+    display: flex;
+    flex-direction: row;
+}
+.firstrow{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    margin-left: 70px;
+}
+.FourthPerson,
+.secondPerson,
+.ThirdPerson,
+.firstPerson{
+    width: 400px;
+    margin: 0px 2px;
+}
+.firstPerson{
+    border-radius: 20px 0 0 0;
+}
+.fourthPersonDiv,
+.thirdPersonDiv,
+.SecondPersonDiv,
+.firstPersonDiv{
+    position: relative;
+
+}
+.fourthPersonDiv .user,
+.thirdPersonDiv .user,
+.SecondPersonDiv .user,
+.firstPersonDiv .user{
+    position: absolute;
+    top: 79%;
+    left: 2%;
+    font-size: 11px;
+    color: white;
+    background-color: #2525253a;
+    padding: 12px 18px;
+    border-radius: 16px;
+}
+.rightIcons span{
+    font-size: 20px;
+    position: absolute;
+    background-color: #2525253a;
+    padding: 8px 10px 4px 10px;
+    top: 79%;
+    color: white;
+    left: 50%;
+    border-radius: 76px;
+}
+.secondPerson{
+    border-radius: 0 20px 0 0 ;  
+}
+
+.ThirdPerson{
+    border-radius: 0 0 0 20px ;
+}
+.FourthPerson{
+        border-radius: 0 0 20px 0;
+}
+.rightIcons .dots{
+    left: 87%;
+}
+.rightIcons .pin{
+    left: 76%;
+}
+.rightIcons .mic{
+    left: 65%;
+}
+.rightIcons .camera{
+    left: 54%;
+}
+.operationDiv{
+    margin-top: 16px;
+    display: flex;
+}
+.connect{
+    width: 55px;
+    margin-left: 70px;
+    margin-bottom: 15px;
+    cursor: pointer;
+
+}
+.meetingID{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.meetingID p{
+   font-size: 16px;
+   font-weight: 600;
+   margin-bottom: 3px;
+   display: flex;
+}
+.meetingID span{
+    font-size: 12px;
+    color: #F24822;  
+}
+.rightOperations{
+    height: 60px;
+    width: 454px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: 80px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 2px;
+}
+.rightOperations svg{
+    background-color: #F24822;
+    width: 36px;
+    height: 36px;
+    padding: 5px;
+    border-radius: 50px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.rightOperations .videoCamera{
+    background-color: #f3f3f3;
+    width: 40px;
+    height: 40px;
+    margin-top: 8px;
+    margin-left: 10px;
+    border-radius: 40px;
+    padding: 5px;
+    cursor: pointer;
+}
+.chat{
+    background-color: #f3f3f3;
+    width: 40px;
+    height: 40px;
+    margin-top: 8px;
+    margin-left: 10px;
+    border-radius: 40px;
+    padding: 9px 2px 6px 2px; 
+    cursor: pointer;
+}
+
+.addParticipant,
+.chat-container{
+    height: 83vh;
+    width: 340px;
+    background-color: #fff;
+    margin-left: -90px;
+    margin-top: 20px;
+    margin-right: 15px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+.chat-area{
+    height: 73%;
+    overflow-y: scroll;
+}
+.MeetingChat{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+.MeetingChat svg{
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: #f5f5f5;
+    padding: 7px;
+    border-radius: 50px;
+    font-size: 30px;
+
+}
+.meetingText h3{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.meetingText p{
+    font-size: 12px;
+    margin-top: 4px;
+    color: #252525;
+    opacity: 0.18;
+}
+.lineHR{
+    margin-top: 10px;
+    border: 1px solid #252525;
+    opacity: 0.12;
+} 
+.daniyalChat{
+    margin-left: 20px;
+    margin-top: 15px;
+    display: flex;
+} 
+.dani{
+    height: 30px;
+}
+.User-name p{
+    font-size: 12px;
+    margin-left: 4px;
+}
+.User-name span{
+    font-size: 10px;
+    opacity: 0.3;
+    margin-left: 4px;
+}
+.sentMessage p{
+    font-size: 13px;
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 0 16px 16px 16px;
+    margin-top: 5px;
+    margin-left: 15px;
+    width: fit-content;
+}
+.messageHR{
+    border: 1px solid #252525;
+    opacity: 0.12;
+}
+.wajahatChat{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+.wajahatChat .wajii{
+    margin-left: auto;
+    height: 30px;
+    margin-right: 10px;
+}
+.wajiUser-name{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    margin-top: 6px;
+    margin-left: 240px;
+}
+.wajiUser-name p{
+    font-size: 12px;
+    margin-left: auto;
+}
+.wajiUser-name span{
+    font-size: 10px;
+    opacity: 0.3;
+}
+.WajisentMessage p{
+    font-size: 13px;
+    background-color: #F24822;
+    padding: 15px;
+    border-radius:16px 0 16px 16px;
+    margin-top: 5px;
+    margin-left: auto;
+    color: white;
+    margin-right: 20px;
+    width: fit-content;
+}
+.chat-container .formDiv input[type=text] {
+    width:240px;
+    padding: 13px 20px;
+    margin: 8px 0;
+    font-size: 14px;
+    display: inline-block;
+    background-color: #f5f5f5;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    margin-left: 20px;
+    margin-top: 17px;
+    box-sizing: border-box;
+
+  }
+  .formDiv{
+    display: flex;
+    flex-direction: row;
+  }
+  .formDiv button{
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    border-radius: 17px;
+    background-color: #F24822;
+    border: none;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+
+
+  .Participants{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    position: relative;
+}
+.Participants .closeSvg svg{
+    margin-right: 20px;
+    margin-top: 20px;
+    left: 86%;
+    background-color: #f5f5f5;
+    padding: 7px;
+    border-radius: 50px;
+    font-size: 30px;
+    position: absolute;
+}
+.Participants .searchSvg svg{
+    font-size: 20px;
+    color:rgba(0, 0, 0, 0.30) ;
+    position: absolute;
+    top: 70%;
+    left: 2%;
+}
+.ParticipantsText h3{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.ParticipantsText span{
+    font-size: 18px;
+    margin-top: 20px;
+    color: #F24822;
+}
+.ParticipantsText p{
+    font-size: 12px;
+    margin-top: 4px;
+    color: #252525;
+    opacity: 0.18;
+}
+.lineHR{
+    margin-top: 10px;
+    border: 1px solid #252525;
+    opacity: 0.12;
+} 
+
+.partipipantDiv input[type=text] {
+    width:300px;
+    padding: 13px 31px;
+    margin: 8px 0;
+    font-size: 12px;
+    display: inline-block;
+    border: none;
+    outline: none;
+    background: #f5f5f5;
+    border-radius: 4px;
+    color: rgba(0, 0, 0, 0.74);
+    margin-top: 17px;
+    box-sizing: border-box;
+  }
+.participantsTile{
+    display: flex;
+}
+  .participantsTile .firstParticipant{
+    width: 50px;
+    margin: 10px 10px 0 20px;
+  }
+  .hostInfo p{
+    font-size: 13px;
+    margin-top: 20px;
+    font-weight: 700;
+  }
+  .hostInfo span{
+    font-size: 11px;
+    color: #F24822;
+    
+  }
+  .hostActions{
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  .hostActions .threeDots{
+    background-color: #f3f3f3;
+    padding: 10px 10px 8px 10px ;
+    margin-left: 10px;
+    font-size: 15px;
+    border-radius: 50px;
+  }
+  .hostActions .cross{
+    background-color: #f2482211;
+    font-size: 12px;
+    padding: 10px 10px 8px 10px ;
+    margin-left: 10px;
+    border-radius: 50px;
+  }
+  .hostActions .cross svg{
+    color: #F24822;
+  }
+  .participantsLists{
+    height: 60%;
+    overflow-y: scroll;
+  }
+  .addParticipant button{
+    width: 90%;
+    height: 48px;
+    font-size: 11px;
+    font-weight: 600;
+    color: #F24822;
+    background-color: #f2482218;
+    margin: 16px 20px;
+    border: none;
+  }
+
+
+  .shareMeeting{
+    height: 47%;
+    width: 30%;
+    background-color: #fff;
+    position: absolute;
+    top: 38%;
+    left: 20%;
+    border-radius: 16px;
+}
+.shareMeeting .heading .onleft h4{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.shareMeeting .heading .onleft p{
+    font-size: 11px;
+    margin-left: 20px;
+    margin-top: 4px;
+    color: #bebebe;
+    font-weight: 400;
+}
+.shareMeeting .heading{
+    display: flex;
+}
+.shareMeeting .heading .onright{
+    margin-left: auto;
+}
+.shareMeeting .heading .onright svg{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: auto;
+    background-color: #f5f5f5;
+    padding: 7px;
+    font-size: 30px;
+    border-radius: 50px;
+}
+.hr-line{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    border-top: 1px solid #eee;
+}
+.copyLink form input{
+    width: 64%;
+    height: 44px;
+    margin-top: 10px;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    background: #f5f5f5;
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+
+
+
+.copyLink form button{
+    height: 44px;
+    width: 95px;
+    background-color: #f2482218;
+    color: #F24822;
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-size: 10px;
+    font-weight: 600;
+}
+.or-hr{
+    line-height: 1em;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: black;
+    text-align: center;
+    height: 1.5em;
+    opacity: 0.2;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+.or-hr:before {
+      content: '';
+      background: linear-gradient( transparent, #818078, transparent);
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 100%;
+      height: 1px;
+      
+    }
+.or-hr:after {
+      content: attr(data-content);
+      position: relative;
+      display: inline-block;
+      color: black;
+      padding: 0 .5em;
+      line-height: 1.5em;
+      color: #818078;
+      background-color: #fcfcfa;
+    }
+.invite-email form input{
+        width: 64%;
+        height: 44px;
+        margin-top: 10px;
+        outline: none;
+        border: none;
+        background: #f5f5f5;
+        padding-left: 15px;
+        font-size: 14px;
+        border-radius: 12px;
+    }
+.invite-email form button{
+        height: 44px;
+        width: 95px;
+        background-color: #f2482218;
+        color: #F24822;
+        border: none;
+        border-radius: 10px;
+        margin-left: 10px;
+        font-size: 10px;
+        font-weight: 600;
+}
+.invite-email p{
+    margin-left: 20px;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #bebebe;
+}
+.invite-email span{
+    color: #F24822;
+}
+.lastText p{
+    color: #bebebe;
+    font-size: 11px;
+    width: 80%;
+    line-height: 1.4;
+    margin-top: 10px;
+
+    margin-left: 20px;
+
+}

@@ -1,0 +1,119 @@
+/* 
+
+#mainsection{
+    background-color: #EAEDFE;
+}
+
+
+.fstparagraph{
+    color: #F24822;
+    font-size: 16px;
+    font-family:"gilory";
+    padding-top: 30px;
+    margin-bottom: 0px;
+}
+
+.loginpara{
+    font-family: Bold;
+    color: black;
+}
+
+.secparagraph{
+    font-size: 16px;
+    font-family:"gilory";
+    color: #252525;
+    opacity: 0.3;
+}
+
+.labelpara{
+    font-family:"gilory";
+    font-size: 16px;
+}
+
+
+#inputicon2{
+    border: none;
+    outline: none;
+    padding: 20px;
+    border-radius: 8px;
+    font-family:"gilory";
+    background-color: #fff;
+    padding: 20px;
+    padding-left: 40px;
+    width: 85%;
+    margin-left: -17px;
+    
+}
+
+.emailicon{
+        transform: translate(10px);
+}
+
+.labelpara1{
+    font-family:"gilory";
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+.showpassword{
+  
+    font-size: 14px;
+    padding-left: 3px;
+    font-family:"gilory";
+}
+
+.showlll{
+    padding-left: 3px;
+    padding-top: 10px;
+}
+
+.forget{
+ 
+    font-size: 14px;
+    color: #F24822;
+    font-family:"gilory";
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.flexforter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+
+.loginbtnbutton{
+    background-color: #F24822;
+    color: #fff;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.lastlinesign p{
+    font-family:"gilory";
+    font-size: 16px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#spanee{
+    color: #F24822;
+    font-family:"Bold";
+}
+
+.signpic{
+   border-radius: 30px;
+    height: 100vh;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 770px) {
+    .signpic {
+    display: none;
+    }
+  } */

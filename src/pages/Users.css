@@ -1,0 +1,135 @@
+
+
+.backarrowdiv{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+
+
+}
+
+.backarrowdiv p{
+    margin-bottom: 0;
+    font-family: 'Gilroy-Bold';
+    font-size: 16px;
+    color: #252525;
+    
+}
+.mainusersection{
+    align-items: center;
+    padding-block: 6px;
+    /* border: 2px solid red; */
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+  
+}
+
+.timespan{
+    font-family: 'Gilroy-Bold';
+    font-size: 16px;
+    text-align: center;
+
+    color: #252525;
+}
+
+.wajiside{
+    display: flex;
+    align-items: center;
+}
+
+.wajisidebardropdown{
+    margin-left: 10px;
+    font-family:"Gilory-Medium";
+}
+
+/* mans pic */
+
+.manssection{
+    margin-top: 30px;
+    border-radius: 18px;
+}
+
+.man1 , .man2{
+    width: 100%;
+    height: 250px;
+ 
+}
+#man3{
+   border-top-left-radius: 50px;
+
+}
+
+#man4{
+    border-top-right-radius: 50px;
+}
+
+
+
+/* .man2{
+    border: 1px solid red;
+    position: relative;
+    z-index: -99999;
+
+}
+
+.man21{
+    position: absolute;
+    width: 100%;
+    z-index: -99999;
+    top: 0;
+    left: 0;
+    right: 0;
+
+} */
+
+.icons1 span{
+    font-family: 'Gilroy-Bold';
+    font-size: 14px;
+    color: #252525;
+}
+
+.icons1 p{
+
+    font-family: 'Gilroy-Medium';
+    font-size: 12px;
+    color: #F24822;
+    margin-top: -20px;
+    padding-left: 50px;
+
+}
+.iconsizemain{
+    margin-top: 10px;
+  
+}
+.iconsize{
+    height: 40px;
+    cursor: pointer;
+    
+}
+
+/* media queries */
+
+@media screen and (max-width:1014px) {
+    .backarrowdiv{
+        display: inline-block;
+        padding-top: 0;
+    }
+    
+}
+
+@media screen and (max-width:910px) {
+    .backarrowdiv p{
+      font-size: 12px;
+    }
+    /* .wajisidebardropdown{
+        margin-left: -30px;
+    } */
+
+    .timespan{
+        text-align: left;
+    }
+    .mainusersection{
+        padding-left: 40px;
+    }
+}

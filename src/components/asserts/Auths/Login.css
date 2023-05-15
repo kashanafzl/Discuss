@@ -1,0 +1,183 @@
+
+
+
+#mainsection{
+    background-color: #EAEDFE;
+    padding-inline: 60px;
+    
+}
+
+
+.fstparagraph{
+    color: #F24822;
+    font-size: 16px;
+    font-family:"gilory";
+    padding-top: 80px;
+    margin-bottom: 0px;
+}
+
+.loginpara{
+    font-family:"Gilroy-Bold";
+    color: black;
+}
+
+.secparagraph{
+    font-size: 16px;
+    font-family:"gilory";
+    color: #252525;
+    opacity: 0.3;
+}
+
+.labelpara{
+    font-family:"Gilroy-Medium";
+    font-size: 16px;
+    color: #252525;
+}
+
+
+#inputicon2{
+    border: none;
+    outline: none;
+    padding: 20px;
+    border-radius: 8px;
+    font-family:"Gilroy-Medium";
+    background-color: #fff;
+    padding: 12px;
+    padding-left: 40px;
+    width: 100%;
+    margin-left: -17px;
+    
+}
+
+#inputicon2::placeholder{
+    font-family:"Gilroy-Medium";
+    font-size: 14px;
+}
+
+.emailicon{
+        transform: translate(10px);
+}
+
+.labelpara1{
+    font-family:"Gilroy-Medium";
+    font-size: 16px;
+    padding-top: 5px;
+    margin-bottom: 0;
+    margin-top: 2px;
+}
+
+.showpassword{
+  
+    font-size: 14px;
+    padding-left: 3px;
+    font-family:"Gilroy-Medium";
+}
+
+.showlll{
+    padding-left: 3px;
+    padding-top: 10px;
+}
+
+.forget{
+ 
+    font-size: 14px;
+    color: #F24822;
+    font-family:"gilory";
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.flexforter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+
+.loginbtnbutton{
+    background-color: #F24822;
+    color: #fff;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.lastlinesign p{
+    font-family:"Gilroy-Medium";
+    font-size: 16px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+#spanee{
+    color: #F24822;
+    font-family:"Gilroy-Bold";
+}
+
+.signpic{
+
+    height: 92vh;
+    width: 90%;
+    margin-left: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+
+  
+}
+
+
+@media screen and (max-width:996px) {
+     .signpic {
+        margin-left: 0px;
+    }
+  }
+
+  @media screen and (max-width:800px) {
+    .signpic {
+       display: none;
+   }
+ }
+
+ 
+ @media screen and (max-width:950px) {
+    .signpic01 {
+       margin-left: 0px;
+   }
+ }
+
+
+ @media screen and (max-width:800px) {
+    .signpic01 {
+       display: none;
+   }
+ }
+
+
+
+@media screen and (max-width:996px) {
+    .signpic01 .signpic {
+        margin-left: 0px;
+      
+    }
+  }
+
+
+
+@media screen and (max-width: 770px) {
+    .signpic01 .signpic{
+    display: none;
+    }
+  }
+
+.lastlinesignsign{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.signpic01{
+    height: 100vh;
+    width: 100%;
+    margin-left: 100px;
+}
